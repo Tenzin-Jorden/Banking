@@ -6,7 +6,7 @@ const path = require("path");
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const urlencodedParser = bodyParser.urlencoded({ extended: true });
-var PORT = process.env.PORT;
+const port = process.env.PORT || 5500
 
 app.use(express.static(path.join('public/css')));
 app.use(express.static(path.join('public/js')));
