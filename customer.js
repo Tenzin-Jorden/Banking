@@ -5,7 +5,8 @@ const fs = require("fs");
 const path = require("path");
 const session = require('express-session');
 const bodyParser = require('body-parser');
-const urlencodedParser = bodyParser.urlencoded({ extended: true })
+const urlencodedParser = bodyParser.urlencoded({ extended: true });
+var PORT = process.env.PORT;
 
 app.use(express.static(path.join('public/css')));
 app.use(express.static(path.join('public/js')));
@@ -62,3 +63,6 @@ app.post('/transfer_money', urlencodedParser, (req, res) => {
     res.redirect('/transfer');
 });
 
+app.listen(PORT, () => {
+    console.log("server is listening on port 5500");
+});
