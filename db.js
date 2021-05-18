@@ -9,14 +9,8 @@ const Pool = require("pg").Pool;
 
 // const db_url = url.parse(DATABASE_URL)
 const pool = new Pool({
-    user: "bzrkhymuypqxmt",
-    password: "59f0a746742f6b1a50f974038c8c3a63bcca3d831d3e3d489e5b3fb0f4d9a62c",
-    host: "ec2-34-206-8-52.compute-1.amazonaws.com",
-    port: 5432,
-    database: "d6b7mmv55c4h7a",
-    ssl: {
-        rejectUnauthorized: false
-    }
+    // SECRET KEY NOT SHOWN
+    
 });
 
 
