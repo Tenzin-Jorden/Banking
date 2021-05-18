@@ -62,6 +62,3 @@ app.post('/transfer_money', urlencodedParser, (req, res) => {
     res.redirect('/transfer');
 });
 
-app.listen(5500, '127.0.0.1', () => {
-    console.log("server is listening on port 5500");
-});
