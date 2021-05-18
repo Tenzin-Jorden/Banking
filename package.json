@@ -4,7 +4,7 @@
   "description": "",
   "main": "customer.js",
   "scripts": {
-    "start": "nodemon customer.js",
+    "start": "node customer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engine": {
