@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "holder_name": "Jorden",
+    "account_no": 11111,
+    "account_balance": 9000,
+    "email": "jorden@gmail.com"
+  },
+  {
+    "id": "2",
+    "holder_name": "Chokrap",
+    "account_no": 22222,
+    "account_balance": 21000,
+    "email": "chokrap@gmail.com"
+  },
+  {
+    "id": "3",
+    "holder_name": "Jigme",
+    "account_no": 33333,
+    "account_balance": 30000,
+    "email": "jigme@gmail.com"
+  },
+  {
+    "id": "4",
+    "holder_name": "Dawa",
+    "account_no": 44444,
+    "account_balance": 40000,
+    "email": "dawa@gmail.com"
+  },
+  {
+    "id": "5",
+    "holder_name": "Khetsun",
+    "account_no": 55555,
+    "account_balance": 50000,
+    "email": "khetsun@gmail.com"
+  },
+  {
+    "id": "6",
+    "holder_name": "Gyurmay",
+    "account_no": 66666,
+    "account_balance": 60000,
+    "email": "gyurmay@gmail.com"
+  },
+  {
+    "id": "7",
+    "holder_name": "Namsey",
+    "account_no": 77777,
+    "account_balance": 70000,
+    "email": "namsey@gmail.com"
+  },
+  {
+    "id": "8",
+    "holder_name": "Passang",
+    "account_no": 88888,
+    "account_balance": 80000,
+    "email": "passang@gmail.com"
+  },
+  {
+    "id": "9",
+    "holder_name": "Akash",
+    "account_no": 99999,
+    "account_balance": 90000,
+    "email": "akash@gmail.com"
+  }
+]

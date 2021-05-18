@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Details</title>
+    <link rel="stylesheet" type="text/css" href="transfer.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="https://pbs.twimg.com/profile_images/963682775634149378/QsT8nuVg_400x400.jpg">
+                </div>
+                <ul class="nav_link">
+                    <li>
+                        <a href="index">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Transfer Money</a>
+                    </li>
+                    <li>
+                        <a href="customer">Customer Details
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="transfer">
+            <form class="form" id="form" action="/transfer_money" method="POST">
+                <h2>Tranfer Money</h2>
+                <div class="form-controller">
+                    <label for="">Sender Name <span>*</span></label>
+                    <input type="text" name="Sender_Name">
+                </div>
+                <div class="form-controller">
+                    <label for="">Sender Account No <span>*</span> </label>
+                    <input type="text" id="sender" name="Sender_Account">
+                </div>
+                <div class="form-controller">
+                    <label for="">Reciever Name <span>*</span></label>
+                    <input type="text" name="Reciever_Name">
+                </div>
+                <div class="form-controller">
+                    <label for="">Reciever Account No <span>*</span></label>
+                    <input type="text" name="Reciever_Account">
+                </div>
+                <div class="form-controller">
+                    <label for="">Amount<span>*</span></label>
+                    <input type="text" id='amount' name="Amount">
+                </div>
+                <button type="submit">Confirm</button>
+            </form>
+        </div>
+        <footer class="footer">
+            <a href=""><img
+                    src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_505df21738edbe9baababa9d60be291d/github.png"
+                    alt=""></a>
+        </footer>
+    </div>
+    <script src="transfer.js">
+    </script>
+</body>
+
+</html>
