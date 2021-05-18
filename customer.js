@@ -12,6 +12,9 @@ app.use(express.static(path.join('public/css')));
 app.use(express.static(path.join('public/js')));
 app.use(express.json());// req.body
 
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
+});
 
 //  HOME PAGE//
 app.get('/index', function (req, res) {
